@@ -1,4 +1,4 @@
-#testimonials{
+#testimonials {
     min-height: calc(100vh - 91px);
     display: flex;
     align-items: center;
@@ -6,20 +6,20 @@
     gap: 48px;
 }
 
-#testimonial_chef{
+#testimonial_chef {
     width: 500px;
     height: auto;
 }
 
-#testimonials .section-subtitle{
+#testimonials .section-subtitle {
     font-size: 3rem;
 }
 
-#testimonials_content{
+#testimonials_content {
     width: 50%;
 }
 
-#feedbacks{
+#feedbacks {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -27,47 +27,47 @@
     margin-top: 30px;
 }
 
-.feedback{
+.feedback {
     display: flex;
     align-items: center;
     gap: 20px;
-    background-color: #fff;
+    background-color: var(--color-neutral-0);
     padding: 12px;
     border-radius: 12px;
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
 }
 
-.feedback-avatar{
+.feedback-avatar {
     width: 100px;
     height: 100px;
     border-radius: 100%;
     object-fit: cover;
 }
 
-.feedback-content p{
+.feedback-content p {
     display: flex;
     justify-content: space-between;
 }
 
-.feedback-content p span{
-    color: #e9a209;
+.feedback-content p span {
+    color: var(--color-primary-6);
 }
 
-@media screen and (max-width: 1170px){
-    #testimonials{
+@media screen and (max-width: 1170px) {
+    #testimonials {
         flex-direction: column;
     }
 
-    #testimonials .section-subtitle{
+    #testimonials .section-subtitle {
         text-align: center;
         font-size: 2.5rem;
     }
 
-    #testimonial_chef{
+    #testimonial_chef {
         display: none;
     }
 
-    #testimonials_content{
+    #testimonials_content {
         width: 70%;
         display: flex;
         flex-direction: column;
@@ -75,16 +75,16 @@
     }
 }
 
-@media screen and (max-width: 600px){
-    #testimonials .section-subtitle{
+@media screen and (max-width: 600px) {
+    #testimonials .section-subtitle {
         font-size: 2rem;
     }
 
-    #testimonials_content{
+    #testimonials_content {
         width: 100%;
     }
 
-    .feedback{
+    .feedback {
         flex-direction: column;
     }
 } 
